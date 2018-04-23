@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<Fishes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Fish>
+    <ID>1</ID>
+    <Category>Triggerfish</Category>
+    <CommonName>Clown Triggerfish</CommonName>
+    <Notes>Also known as the big spotted triggerfish.  Inhabits outer reef areas and feeds upon crustaceans and mollusks by crushing them with powerful teeth.  They are voracious eaters, and divers report seeing the clown triggerfish devour beds of pearl oysters. Do not eat this fish.  According to an 1878 account, "the poisonous flesh acts primarily upon the nervous tissue of the stomach, occasioning violent spasms of that organ, and shortly afterwards all the muscles of the body.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Clown_triggerfish</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Tetraodontiformes</Order>
+      <Family>Balistidae</Family>
+      <Genus>Balistoides</Genus>
+      <Species>Ballistoides conspicillum</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>2</ID>
+    <Category>Snapper</Category>
+    <CommonName>Red Emperor</CommonName>
+    <Notes>Called seaperch in Australia.  Inhabits the areas around lagoon coral reefs and sandy bottoms. The red emperor is a valuable food fish and considered a great sporting fish that fights with fury when hooked.  The flesh of an old fish is just as tender to eat as that of the very young.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Emperor_red_snapper</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Lutjanidae</Family>
+      <Genus>Lutjanus</Genus>
+      <Species>Lutjanus sebae</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>3</ID>
+    <Category>Wrasse</Category>
+    <CommonName>Giant Maori Wrasse</CommonName>
+    <Notes>This is the largest of all the wrasse.  It is found in dense reef areas, feeding on a wide variety of mollusks, fishes, sea urchins, crustaceans, and other invertebrates. In spite of its immense size, divers find it a very wary fish.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Humphead_wrasse</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Labridae</Family>
+      <Genus>Cheilinus</Genus>
+      <Species>Cheilinus undulatus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>4</ID>
+    <Category>Angelfish</Category>
+    <CommonName>Blue Angelfish</CommonName>
+    <Notes>Habitat is around boulders, caves, coral ledges and crevices in shallow waters.  Swims alone or in groups.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Pomacanthus_navarchus</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Pomacanthidae</Family>
+      <Genus>Pomacanthus</Genus>
+      <Species>Pomacanthus nauarchus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>5</ID>
+    <Category>Cod</Category>
+    <CommonName>Lunartail Rockcod</CommonName>
+    <Notes>Also known as the coronation trout.  It is found around coral reefs from shallow to very deep waters.  Feeds primarily on small fishes.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Yellow-edged_lyretail</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Serranidae</Family>
+      <Genus>Variola</Genus>
+      <Species>Variola louti</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>6</ID>
+    <Category>Scorpionfish</Category>
+    <CommonName>Firefish</CommonName>
+    <Notes>Also known as the turkeyfish.  Inhabits reef caves and crevices.  The firefish is usually stationary during the day, but feeds actively at night.  Favorite foods are crustaceans.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Red_lionfish</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Scorpaeniformes</Order>
+      <Family>Scorpaenidae</Family>
+      <Genus>Pterois</Genus>
+      <Species>Pterois volitans</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>7</ID>
+    <Category>Butterflyfish</Category>
+    <CommonName>Ornate Butterflyfish</CommonName>
+    <Notes>Normally seen in pairs around dense coral areas from very shallow to moderate depths.  The butterflyfish feeds mainly on coral polyps and anemones.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Ornate_butterflyfish</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Chaetodontidae</Family>
+      <Genus>Chaetodon</Genus>
+      <Species>Chaetodon Ornatissimus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>8</ID>
+    <Category>Shark</Category>
+    <CommonName>Swell Shark</CommonName>
+    <Notes>Inhabits shallow reef caves and crevices and kelp beds along the coast and offshore islands.  This shark feeds at night on fishes and crustaceans and is totally harmless to divers.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Swellshark</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Chondrichthyes</Class>
+      <Order>Carcharhiniformes</Order>
+      <Family>Scyliorhinidae</Family>
+      <Genus>Cephaloscyllium</Genus>
+      <Species>Cephaloscyllium ventriosum</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>9</ID>
+    <Category>Ray</Category>
+    <CommonName>Bat Ray</CommonName>
+    <Notes>Also know as the grinder ray because of its flat grinding teeth used to crush its meal of crustaceans or invertebrates.  Inhabits bays, sloughs, and kelp beds with sandy bottoms.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Bat_ray</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Chondrichthyes</Class>
+      <Order>Myliobatiformes</Order>
+      <Family>Myliobatidae</Family>
+      <Genus>Myliobatidae</Genus>
+      <Species>Myliobatis californica</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>10</ID>
+    <Category>Eel</Category>
+    <CommonName>California Moray</CommonName>
+    <Notes>This fish hides in a shallow-water lair with just its head protruding during the day.  At night it feeds on octopuses, crustaceans, and small fish close by.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/California_moray</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Anguilliformes</Order>
+      <Family>Muraenidae</Family>
+      <Genus>Gymnothorax</Genus>
+      <Species>Gymnothorax mordax</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>11</ID>
+    <Category>Cod</Category>
+    <CommonName>Lingcod</CommonName>
+    <Notes>Widely found from near the shore to very deep waters.  Young fish stay on sand or mud bottoms of bays and inshore areas.  The lingcod is a voracious predator, eating many different fishes and octopuses.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Lingcod</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Neopterygii</Order>
+      <Family>Hexagrammidae</Family>
+      <Genus>Ophiodon</Genus>
+      <Species>Ophiodon elongatus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>12</ID>
+    <Category>Sculpin</Category>
+    <CommonName>Cabezon</CommonName>
+    <Notes>Often called the great marbled sculpin.  Found over rocky or shell-encrusted bottoms from shallow to moderately deep waters.  It feeds primarily on crustaceans and mollusks.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Cabezon_(fish)</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Scorpaeniformes</Order>
+      <Family>Cottidae</Family>
+      <Genus>Scorpaenichthys</Genus>
+      <Species>Scorpaenichthys marmoratus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>13</ID>
+    <Category>Spadefish</Category>
+    <CommonName>Atlantic Spadefish</CommonName>
+    <Notes>Found in mid-water areas around reefs, wrecks and bridges.  The tiny, all-black juveniles drift motionless in the shallows, looking like leaves and pods of mangrove.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Atlantic_spadefish</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Ephippidae</Family>
+      <Genus>Chaetodipterus</Genus>
+      <Species>Chaetodiperus faber</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>14</ID>
+    <Category>Shark</Category>
+    <CommonName>Nurse Shark</CommonName>
+    <Notes>Frequently found under rock or reef ledges.  Carnivorous with well-developed organs for scent and vibration detection.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Nurse_shark</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Chondrichthyes</Class>
+      <Order>Orectolobiformes</Order>
+      <Family>Ginglymostomatidae</Family>
+      <Genus>Ginglymostoma</Genus>
+      <Species>Ginglymostoma cirratum</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>15</ID>
+    <Category>Ray</Category>
+    <CommonName>Spotted Eagle Ray</CommonName>
+    <Notes>Found in reef areas and sandy bottoms.  The spotted eagle ray has a poisonous spine on its tail and incredibly powerful jaws to crush oysters, clams, and numerous crustaceans.  Divers report large schools during breeding season.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Spotted_eagle_ray</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Chondrichthyes</Class>
+      <Order>Myliobatiformes</Order>
+      <Family>Myliobatidae</Family>
+      <Genus>Aetobatus</Genus>
+      <Species>Aetobatus narinari</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>16</ID>
+    <Category>Snapper</Category>
+    <CommonName>Yellowtail Snapper</CommonName>
+    <Notes>Prefers to congregate in loose groups in the open water above reef areas.  Has well-developed teeth and usually feeds at night on small fishes, crustaceans, and plankton.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Yellowtail_snapper</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Lutjanidae</Family>
+      <Genus>Ocyurus</Genus>
+      <Species>Ocyurus chrysurus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>17</ID>
+    <Category>Barracuda</Category>
+    <CommonName>Great Barracuda</CommonName>
+    <Notes>Young barracuda live in inshore seagrass beds, while adults range from inshore channels to the open ocean.  The barracuda feeds on a wide variety of fishes.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Great_barracuda</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Haemulidae</Family>
+      <Genus>Haemulon</Genus>
+      <Species>Sphyraena barracuda</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>18</ID>
+    <Category>Grunt</Category>
+    <CommonName>French Grunt</CommonName>
+    <Notes>The French grunt drifts in large groups in sheltered reef areas during the day.  It forages nearby for other fish at night.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/French_grunt</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Haemulidae</Family>
+      <Genus>Haemulon</Genus>
+      <Species>Haemulon flavolineatum</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>19</ID>
+    <Category>Snapper</Category>
+    <CommonName>Dog Snapper</CommonName>
+    <Notes>This fish is named for its elongated canine teeth at the front of the upper jaw.  It is solitary and wary and stays in the deep reef or submerged wreck areas.  Not very common anywhere.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Dog_snapper</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Lutjanidae</Family>
+      <Genus>Lutjanus</Genus>
+      <Species>Lutjanus jocu</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>20</ID>
+    <Category>Grouper</Category>
+    <CommonName>Nassau Grouper</CommonName>
+    <Notes>Found around shallow coral reefs and seagrass beds, feeding mainly on fishes.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Nassau_grouper</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Serranidae</Family>
+      <Genus>Epinephelus</Genus>
+      <Species>Epinephelus striatus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>21</ID>
+    <Category>Wrasse</Category>
+    <CommonName>Bluehead Wrasse</CommonName>
+    <Notes>Found in coral reefs, rocky flats, reef sand, and seagrass habitats.  This is one of the most successful "cleaner fish" in the tropical West Atlantic.  It feeds on the parasites of other fish, who come to the wrasse to be cleaned.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Thalassoma_bifasciatum</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Labridae</Family>
+      <Genus>Thalassoma</Genus>
+      <Species>Thalassoma bifasciatum</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>22</ID>
+    <Category>Jack</Category>
+    <CommonName>Yellow Jack</CommonName>
+    <Notes>Inhabits reef and mid-water areas, feeding on invertebrates and small fishes.  The adult is one of the few jacks without teeth.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Yellow_jack</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Carangidae</Family>
+      <Genus>Carangoides</Genus>
+      <Species>Carangoides bartholomaei</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>23</ID>
+    <Category>Surfperch</Category>
+    <CommonName>Redtail Surfperch</CommonName>
+    <Notes>Inhabits exposed sandy shorelines to shallow depths.  Feeds on sand-dwelling crustaceans and mollusks.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Redtail_surfperch</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Embiotocidae</Family>
+      <Genus>Amphistichus</Genus>
+      <Species>Amphistichus rhodoterus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>24</ID>
+    <Category>Croaker</Category>
+    <CommonName>White Sea Bass</CommonName>
+    <Notes>Schools are found over rocky bottoms and around kelp forest canopies.  Not a true bass, this is the largest of the croakers on the Pacific Coast.  It feeds in mid-water on squid, anchovies, and sardines.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/White_seabass</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Perciformes</Order>
+      <Family>Sciaenidae</Family>
+      <Genus>Atractoscion</Genus>
+      <Species>Atractoscion nobilis</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>25</ID>
+    <Category>Greenling</Category>
+    <CommonName>Rock Greenling</CommonName>
+    <Notes>Inhabits rocky areas along shallow exposed coast line.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Hexagrammos_lagocephalus</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Scorpaeniformes</Order>
+      <Family>Hexagrammidae</Family>
+      <Genus>Hexagrammos</Genus>
+      <Species>Hexagrammos lagocephalus</Species>
+    </ScientificClassification>
+  </Fish>
+  <Fish>
+    <ID>26</ID>
+    <Category>Smelt</Category>
+    <CommonName>Surf Smelt</CommonName>
+    <Notes>Also called the day smelt because of the timing of its spawning runs.  Inhabits the surf line, feeding on small fishes and invertebrates.</Notes>
+    <ScientificClassification>
+      <Reference>http://en.wikipedia.org/wiki/Hypomesus_pretiosus</Reference>
+      <Kingdom>Animalia</Kingdom>
+      <Phylum>Chordata</Phylum>
+      <Class>Actinopterygii</Class>
+      <Order>Osmeriformes</Order>
+      <Family>Osmeridae</Family>
+      <Genus>Hypomesus</Genus>
+      <Species>Hypomesus pretiosus</Species>
+    </ScientificClassification>
+  </Fish>
+</Fishes>
