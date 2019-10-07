@@ -33,8 +33,8 @@ Namespace DataBindingToListExample
             BindWeatherReportToFixedTable(MyWeatherReportSource.Data, spreadsheetControl1.Selection)
         End Sub
 
-        #Region "#BindingListBoundToRange"
-        Private Sub BindWeatherReportToRange(ByVal weatherDatasource As Object, ByVal bindingRange As Range)
+#Region "#BindingListBoundToRange"
+        Private Sub BindWeatherReportToRange(ByVal weatherDatasource As Object, ByVal bindingRange As CellRange)
             Dim sheet As Worksheet = spreadsheetControl1.Document.Worksheets(0)
 
             ' Check for range conflicts.
@@ -56,10 +56,10 @@ Namespace DataBindingToListExample
             ' Adjust the column width.
             sheetDataBinding.Range.AutoFitColumns()
         End Sub
-        #End Region ' #BindingListBoundToRange
+#End Region ' #BindingListBoundToRange
 
-        #Region "#ListBoundToTable"
-        Private Sub BindWeatherReportToTable(ByVal weatherDatasource As Object, ByVal bindingRange As Range)
+#Region "#ListBoundToTable"
+        Private Sub BindWeatherReportToTable(ByVal weatherDatasource As Object, ByVal bindingRange As CellRange)
             Dim sheet As Worksheet = spreadsheetControl1.Document.Worksheets(0)
 
             ' Remove all data bindings bound to the specified data source.
@@ -82,10 +82,10 @@ Namespace DataBindingToListExample
                 MessageBox.Show(e.Message, "Binding Exception")
             End Try
         End Sub
-        #End Region ' #ListBoundToTable
+#End Region ' #ListBoundToTable
 
-        #Region "#ListBoundToFixedTableUsingTableCollectionAdd"
-        Private Sub BindWeatherReportToFixedTable(ByVal weatherDatasource As Object, ByVal selection As Range)
+#Region "#ListBoundToFixedTableUsingTableCollectionAdd"
+        Private Sub BindWeatherReportToFixedTable(ByVal weatherDatasource As Object, ByVal selection As CellRange)
             Dim sheet As Worksheet = spreadsheetControl1.Document.Worksheets(0)
 
             ' Remove all data bindings bound to the specified data source.
@@ -108,7 +108,7 @@ Namespace DataBindingToListExample
                 MessageBox.Show(e.Message, "Binding Exception")
             End Try
         End Sub
-        #End Region ' #ListBoundToFixedTableUsingTableCollectionAdd
+#End Region ' #ListBoundToFixedTableUsingTableCollectionAdd
 
         Private Sub barBtnAddWeatherReport_ItemClick(ByVal sender As Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles barBtnAddWeatherReport.ItemClick
             MyWeatherReportSource.DataAsBindingList.Insert(1, New WeatherReport() With {.Date = New Date(1776, 2, 29), .Weather = Weather.Sunny, .HourlyReport = MyWeatherReportSource.GenerateRandomHourlyReport()})

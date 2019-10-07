@@ -32,7 +32,7 @@ namespace DataBindingToListExample {
         }
 
         #region #BindingListBoundToRange
-        private void BindWeatherReportToRange(object weatherDatasource, Range bindingRange) {
+        private void BindWeatherReportToRange(object weatherDatasource, CellRange bindingRange) {
             Worksheet sheet = spreadsheetControl1.Document.Worksheets[0];
 
             // Check for range conflicts.
@@ -58,7 +58,7 @@ namespace DataBindingToListExample {
         #endregion #BindingListBoundToRange
 
         #region #ListBoundToTable
-        private void BindWeatherReportToTable(object weatherDatasource, Range bindingRange) {
+        private void BindWeatherReportToTable(object weatherDatasource, CellRange bindingRange) {
             Worksheet sheet = spreadsheetControl1.Document.Worksheets[0];
 
             // Remove all data bindings bound to the specified data source.
@@ -85,7 +85,7 @@ namespace DataBindingToListExample {
         #endregion #ListBoundToTable
 
         #region #ListBoundToFixedTableUsingTableCollectionAdd
-        private void BindWeatherReportToFixedTable(object weatherDatasource, Range selection) {
+        private void BindWeatherReportToFixedTable(object weatherDatasource, CellRange selection) {
             Worksheet sheet = spreadsheetControl1.Document.Worksheets[0];
 
             // Remove all data bindings bound to the specified data source.
