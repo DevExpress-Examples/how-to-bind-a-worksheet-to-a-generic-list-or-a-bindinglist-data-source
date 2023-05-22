@@ -37,7 +37,8 @@ namespace DataBindingToListExample {
 
             // Check for range conflicts.
             var dataBindingConflicts = sheet.DataBindings.
-                Where(d => (d.Range.RightColumnIndex >= bindingRange.LeftColumnIndex) || (d.Range.BottomRowIndex >= bindingRange.TopRowIndex)) ;
+                Where(binding => (binding.Range.RightColumnIndex >= bindingRange.LeftColumnIndex) 
+                || (binding.Range.BottomRowIndex >= bindingRange.TopRowIndex)) ;
             if (dataBindingConflicts.Count() > 0) {
                 MessageBox.Show("Cannot bind the range to data.\r\nThe worksheet contains other binding ranges which may conflict.", "Range Conflict");
                 return;
@@ -127,13 +128,13 @@ namespace DataBindingToListExample {
             #region #GetDataBindings
             Worksheet sheet = spreadsheetControl1.Document.Worksheets.ActiveWorksheet;
             var bindings = sheet.DataBindings.GetDataBindings(sheet.Selection);
-            string s = "No data bindings found";
-            if (bindings.Count != 0) { 
-                  s = "The selected range contains the following data bindings:\r\n";
+            string message = "No data bindings found";
+            if (bindings.Count != 0) {
+                message = "The selected range contains the following data bindings:\r\n";
             foreach (WorksheetDataBinding binding in bindings)
-                s += String.Format("Binding {0}\r\n", binding.Range);
+                    message += String.Format("Binding {0}\r\n", binding.Range);
             }
-            MessageBox.Show(s);
+            MessageBox.Show(message);
             #endregion #GetDataBindings
         }
 

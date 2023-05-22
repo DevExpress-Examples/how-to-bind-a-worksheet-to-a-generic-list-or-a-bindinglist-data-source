@@ -11,9 +11,9 @@ Namespace DataBindingToListExample
 
         Public Sub New()
             InitializeComponent()
-'            #Region "#DataBindingErrorHandling"
+#Region "#DataBindingErrorHandling"
             AddHandler spreadsheetControl1.Document.Worksheets(0).DataBindings.Error, AddressOf DataBindings_Error
-'            #End Region ' #DataBindingErrorHandling
+#End Region ' #DataBindingErrorHandling
         End Sub
         #Region "#DataBindingErrorHandler"
         Private Sub DataBindings_Error(ByVal sender As Object, ByVal e As DataBindingErrorEventArgs)
@@ -38,7 +38,10 @@ Namespace DataBindingToListExample
             Dim sheet As Worksheet = spreadsheetControl1.Document.Worksheets(0)
 
             ' Check for range conflicts.
-            Dim dataBindingConflicts = sheet.DataBindings.Where(Function(d) (d.Range.RightColumnIndex >= bindingRange.LeftColumnIndex) OrElse (d.Range.BottomRowIndex >= bindingRange.TopRowIndex))
+            Dim dataBindingConflicts = sheet.DataBindings.Where(
+                Function(binding)
+                    Return (binding.Range.RightColumnIndex >= bindingRange.LeftColumnIndex) OrElse (binding.Range.BottomRowIndex >= bindingRange.TopRowIndex)
+                End Function)
             If dataBindingConflicts.Count() > 0 Then
                 MessageBox.Show("Cannot bind the range to data." & ControlChars.CrLf & "The worksheet contains other binding ranges which may conflict.", "Range Conflict")
                 Return
@@ -119,24 +122,22 @@ Namespace DataBindingToListExample
         End Sub
 
         Private Sub barBtnBindingInfo_ItemClick(ByVal sender As Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles barBtnBindingInfo.ItemClick
-'            #Region "#GetDataBindings"
+#Region "#GetDataBindings"
             Dim sheet As Worksheet = spreadsheetControl1.Document.Worksheets.ActiveWorksheet
             Dim bindings = sheet.DataBindings.GetDataBindings(sheet.Selection)
-            Dim s As String = "No data bindings found"
+            Dim message As String = "No data bindings found"
             If bindings.Count <> 0 Then
-                  s = "The selected range contains the following data bindings:" & ControlChars.CrLf
-            For Each binding As WorksheetDataBinding In bindings
-                s &= String.Format("Binding {0}" & ControlChars.CrLf, binding.Range)
-            Next binding
+                message = "The selected range contains the following data bindings:" & ControlChars.CrLf
+                For Each binding As WorksheetDataBinding In bindings
+                    message &= String.Format("Binding {0}" & ControlChars.CrLf, binding.Range)
+                Next binding
             End If
-            MessageBox.Show(s)
-'            #End Region ' #GetDataBindings
+            MessageBox.Show(message)
+#End Region ' #GetDataBindings
         End Sub
 
         Private Sub btnReload_ItemClick(ByVal sender As Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnReload.ItemClick
             MyWeatherReportSource.Reload()
         End Sub
-
-
     End Class
 End Namespace
