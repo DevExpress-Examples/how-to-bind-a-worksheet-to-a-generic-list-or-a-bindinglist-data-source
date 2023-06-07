@@ -29,3 +29,6 @@ Data binding error results in the [WorksheetDataBinding.Error](https://docs.de
 ## Documentation
 
 * [Data Binding in WinForms Spreadsheet Control](https://docs.devexpress.com/WindowsForms/117679/controls-and-libraries/spreadsheet/data-binding)
+
+## More Examples
+* [How to: Bind a GridControl to the Worksheet Data](https://github.com/DevExpress-Examples/how-to-bind-a-grid-control-to-the-worksheet-data-t461090)
