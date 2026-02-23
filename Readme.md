@@ -27,7 +27,6 @@ If a data binding error occurs, the `WorksheetDataBinding.Error` event is raised
 <!-- default file list end -->
 
 <!-- feedback -->
-
 ## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-bind-a-worksheet-to-a-generic-list-or-a-bindinglist-data-source&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-bind-a-worksheet-to-a-generic-list-or-a-bindinglist-data-source&~~~was_helpful=no)
